@@ -1,0 +1,255 @@
+/*GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.titulos{
+    font-size: 26px;
+    color:rgba(0, 0, 0, 0.76);
+    font-weight: 700;
+    margin: 20px;
+}
+
+.parrafos{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 400;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.videos{
+    border-radius: 40px;
+}
+
+
+/*HEADER*/
+header{
+    font-size: 20px;
+}
+
+.icono{
+    width: 28px;
+    height: 28px;
+}
+
+.dropdown-letra{
+    font-size: 19px;
+}
+/*FIN HEADER*/
+
+
+/*MAIN*/
+.imagen-pequeña{
+    width: 250px;
+    height: 250px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-comprar{
+    width: 140px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    background-color: #0c6cfc;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-youtube{
+    width: 100px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlace{
+    font-size: 19px;
+    color: rgba(12, 138, 211, 0.952);
+    font-weight: 400;
+    margin: 0;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.letra-producto{
+    font-size: 24px;
+    text-align: start;
+    margin: 0px;
+}
+
+.letra-precio{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.letra-formulario{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:rgba(0, 0, 0, 0.76);
+    font-weight: 500;
+}
+
+.letra-playlist{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.caja-producto{
+    width: 280px;
+    height: 380px;
+    border: solid #e5e5e5da 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-formulario{
+    height: 380px;
+    border: solid #9ba1a5 2px;
+    border-radius: 5px;
+}  
+
+.caja-amor-amarillo{
+    background-color: #e9af2a;
+    color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-bocanada{
+    background-color: #005ba4;
+    color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-siempre-es-hoy{
+    background-color: #a2aaae;
+    color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-ahi-vamos{
+    background-color: #3c4444;
+    color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.caja-fuerza-natural{
+    background-color: #a1b599;
+    color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 40px 20px 40px;
+}
+/*FIN MAIN*/
+
+
+/*FOOTER*/
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+}
+
+footer section{
+    border-top: solid black 2px;
+}
+
+footer section div nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer section div nav ul{
+    font-size: 23px;
+    padding: 0;;
+}
+
+footer section div nav ul li{
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer section div nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: 500;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 5% 40px 5%;
+}
+
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    justify-content: space-between;
+    border-top: solid black 2px;
+    padding-top: 20px;
+}
+
+.politicas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.952);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer section div div p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*FIN FOOTER*/
+
