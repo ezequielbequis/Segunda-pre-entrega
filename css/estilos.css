@@ -122,12 +122,14 @@ header{
     margin: 20px 40px 20px 40px;
 }
 
+/*caja para login, carrito y contacto*/
 .caja-formulario{
     height: 380px;
     border: solid #9ba1a5 2px;
     border-radius: 5px;
 }  
 
+/*cajas para Discografia*/
 .caja-amor-amarillo{
     background-color: #e9af2a;
     color: white;
